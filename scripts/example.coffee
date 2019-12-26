@@ -10,8 +10,15 @@
 
 module.exports = (robot) ->
 
+
+module.exports = (robot) ->
 	robot.hear /hola/i, (res) ->
 		res.send "Hola Mundo"
+
+
+  module.exports = (robot) ->
+	robot.hear /!new members/i, (res) ->
+		res.send "https://www.notion.so/dstarling/Click-me-if-you-like-being-informed-b5e1968173684dfd908f4a85c91ef6e7"
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
